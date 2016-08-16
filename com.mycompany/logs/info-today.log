@@ -1,0 +1,26 @@
+13:24:33.791 1422 [main] INFO  RestfulTest.com.mycompany.App - Starting App on SayaliKhodke-PC with PID 9596 (started by Sayali Khodke in C:\Users\Sayali Khodke\workspace\testWorkSpace\com.mycompany)
+13:24:33.804 1435 [main] INFO  RestfulTest.com.mycompany.App - No active profile set, falling back to default profiles: default
+13:24:33.952 1583 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@92163f9: startup date [Tue Aug 16 13:24:33 EDT 2016]; root of context hierarchy
+13:24:36.678 4309 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+13:24:36.694 4325 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+13:24:36.695 4326 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.4
+13:24:36.800 4431 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:24:36.800 4431 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2848 ms
+13:24:37.031 4662 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+13:24:37.037 4668 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:24:37.038 4669 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:24:37.038 4669 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+13:24:37.038 4669 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+13:24:37.627 5258 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@92163f9: startup date [Tue Aug 16 13:24:33 EDT 2016]; root of context hierarchy
+13:24:37.799 5430 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers],methods=[GET],produces=[application/json]}" onto public java.util.List<RestfulTest.com.mycompany.Customer> RestfulTest.com.mycompany.CustomerController.getAllCustomers()
+13:24:37.800 5431 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers/{id}],methods=[GET],produces=[application/json]}" onto public RestfulTest.com.mycompany.Customer RestfulTest.com.mycompany.CustomerController.getCustomer(java.lang.Long)
+13:24:37.800 5431 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/customers],methods=[POST]}" onto public void RestfulTest.com.mycompany.CustomerController.addCustomer(RestfulTest.com.mycompany.Customer)
+13:24:37.802 5433 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public java.lang.String RestfulTest.com.mycompany.HelloController.greetings(java.lang.String)
+13:24:37.805 5436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+13:24:37.805 5436 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+13:24:37.854 5485 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:24:37.854 5485 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:24:37.930 5561 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+13:24:38.401 6032 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+13:24:38.529 6160 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+13:24:38.535 6166 [main] INFO  RestfulTest.com.mycompany.App - Started App in 5.924 seconds (JVM running for 6.368)

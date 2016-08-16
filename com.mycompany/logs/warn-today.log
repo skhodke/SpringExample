@@ -1,0 +1,5 @@
+13:11:51.032 1224 [main] WARN  o.s.boot.SpringApplication - Error handling failed (no error message)
+13:12:40.969 809  [main] WARN  o.s.boot.SpringApplication - Error handling failed (no error message)
+13:16:36.940 871  [main] WARN  o.s.boot.SpringApplication - Error handling failed (no error message)
+13:20:32.790 1016 [main] WARN  o.s.boot.SpringApplication - Error handling failed (no error message)
+13:26:17.357 856  [main] WARN  o.s.boot.SpringApplication - Error handling failed (no error message)
